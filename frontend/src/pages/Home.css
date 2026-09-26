@@ -1,0 +1,32 @@
+.home-banner {
+  background: linear-gradient(
+    135deg,
+    var(--ion-color-primary) 0%,
+    var(--ion-color-primary-shade) 100%
+  );
+  color: #fff;
+  padding: 32px 20px;
+}
+
+.home-banner h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.home-banner p {
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.stat-card-icon {
+  font-size: 32px;
+}
+
+.stat-card-value {
+  margin: 8px 0 0;
+}
+
+.stat-card-label {
+  margin: 0;
+  color: var(--ion-color-medium);
+}

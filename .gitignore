@@ -1,6 +1,23 @@
+# Python / Django
 .venv/
 __pycache__/
 *.pyc
+db.sqlite3
+*.log
+
+# Node / Ionic
 node_modules/
 frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/android/
+frontend/ios/
+
+# Secrets et config locale
 .env
+*.env.local
+
+# Éditeur / OS
+.vscode/
+.DS_Store
+Thumbs.db
